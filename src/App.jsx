@@ -9,7 +9,7 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/frontend">
       <Routes>
 
       <Route path="/" element={<Home />} />
